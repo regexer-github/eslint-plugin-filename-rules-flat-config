@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-filename-rules-flat-config",
+  "name": "@axi/eslint-plugin-filename-rules",
   "version": "1.0.0",
   "description": "Enforce filename conventions for linted files",
   "main": "lib/index.js",
