@@ -8,7 +8,6 @@ Adds an ESLint rule to enforce filename conventions for linted files. Allows dif
 [![Coverage Status][coverage-image]][coverage-url]
 [![License: MIT][license-image]][license-url]
 
-
 ## Installation
 
 ```bash
@@ -19,11 +18,9 @@ Add it to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  plugins: [
-    'filename-rules',
-  ],
+  plugins: ["filename-rules"],
   rules: {
-    'filename-rules/match': [2, 'camelcase'],
+    "filename-rules/match": [2, "camelcase"],
   },
 };
 ```
@@ -70,9 +67,9 @@ MIT
 [npm-url]: https://npmjs.org/package/eslint-plugin-filename-rules
 [downloads-image]: https://img.shields.io/npm/dm/eslint-plugin-filename-rules.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/eslint-plugin-filename-rules
-[travis-image]: https://img.shields.io/travis/dolsem/eslint-plugin-filename-rules.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dolsem/eslint-plugin-filename-rules
-[coverage-image]: https://img.shields.io/coveralls/dolsem/eslint-plugin-filename-rules.svg?style=flat-square
-[coverage-url]: https://coveralls.io/github/dolsem/eslint-plugin-filename-rules?branch=master
+[travis-image]: https://img.shields.io/travis/regexer-github/eslint-plugin-filename-rules-flat-config.svg?style=flat-square
+[travis-url]: https://travis-ci.org/regexer-github/eslint-plugin-filename-rules-flat-config
+[coverage-image]: https://img.shields.io/coveralls/regexer-github/eslint-plugin-filename-rules-flat-config.svg?style=flat-square
+[coverage-url]: https://coveralls.io/github/regexer-github/eslint-plugin-filename-rules-flat-config?branch=master
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT
